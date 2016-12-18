@@ -1,10 +1,10 @@
 module Main exposing (..)
 
-import Html.App
+import Html
 import App exposing (init, update, view, subscriptions)
 
 main =
-  Html.App.program
+  Html.program
     { init = init
     , update = update
     , view = view
